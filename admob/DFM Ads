@@ -1,0 +1,10 @@
+
+...
+    dependencies {
+            compile fileTree(dir: 'libs', include: ['*.jar'])
+            compile 'com.android.support:appcompat-v7:xx.x.x'
+            compile 'com.google.firebase:firebase-ads:10.2.0'
+        }
+...
+
+apply plugin: 'com.google.gms.google-services'
